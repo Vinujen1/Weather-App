@@ -1,0 +1,107 @@
+/* General app styling */
+.app {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s ease-in-out, transform 0.3s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+/* Input styling */
+input {
+  margin: 10px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(45deg, #0984e3, #74b9ff);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #74b9ff, #0984e3);
+  transform: scale(1.05);
+}
+
+/* Weather card styling */
+.weather-card {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.weather-card h2 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.weather-card img {
+  margin: 15px 0;
+  width: 100px;
+  height: 100px;
+}
+
+.weather-card p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Animation for Weather Card */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.weather-card {
+  animation: fadeIn 0.5s ease-in-out;
+}
