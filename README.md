@@ -1,9 +1,9 @@
-**Weather App
-**
+Weather App
+
 The Weather App is a React-based application designed to provide users with up-to-date weather information for any city they search for. The app utilizes the OpenWeatherMap API to fetch real-time weather data and displays it in a clean and user-friendly interface.
 
-**Features
-**
+Features
+
 Search Weather by City:
 Users can enter the name of a city to retrieve weather data for that location.
 
