@@ -1,7 +1,18 @@
 Weather App
 
-The Weather App is a React-based application designed to provide users with up-to-date weather information for any city they search for. The app utilizes the OpenWeatherMap API to fetch real-time weather data and displays it in a clean and user-friendly interface.
 
+Here’s a description you can use for your Weather App project on GitHub:
+
+🌤️ Weather App
+A React.js-based Weather App that provides real-time weather updates using WeatherAPI. This project allows users to search for a city and view live weather conditions, including temperature, humidity, and wind speed. The application fetches data from WeatherAPI and dynamically updates the UI to reflect real-time changes.
+
+The app was deployed to the cloud, making it accessible from anywhere. This project showcases my skills in React.js, API integration, and cloud deployment.
+
+Tech Stack:
+
+Frontend: React.js, CSS
+API: WeatherAPI
+Deployment: AWS/S3 (or specify the cloud service you used)
 Features
 
 Search Weather by City:
